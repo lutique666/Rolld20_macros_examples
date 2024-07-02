@@ -1,8 +1,9 @@
-#Simple rolld20 templates
+<h1>Simple rolld20 templates</h1>
 
-##Weapon Attack (barbarian advantage)
-###HACK FULL
+<h2>Weapon Attack (barbarian advantage)</h2>
+<h3>HACK FULL</h3>
 &{template:atkdmg} {{mod=+1}} {{rname=GreatAxe}} {{advantage=1}} {{r1=[[d20cs>20+9-5]]}} {{r2=[[d20cs>20+9-5]]}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[1d12 + 4[STR] + 1[MAGIC]+3[RAGE]+10[FEAT]]]}} {{dmg1type=SLASHING}} {{damage=1}} {{crit1=[[2d12[CRIT]]]}} {{spelllevel=}} {{innate=}} }
+
 
 ###HACK
 &{template:atkdmg} {{mod=+1}} {{rname=GreatAxe}} {{advantage=1}} {{r1=[[d20cs>20+9]]}} {{r2=[[d20cs>20+9]]}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[1d12 + 4[STR] + 1[MAGIC]+3[RAGE]]]}} {{dmg1type=SLASHING}} {{damage=1}} {{crit1=[[2d12[CRIT]]]}} {{spelllevel=}} {{innate=}} }
