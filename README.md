@@ -2,9 +2,9 @@
 
 <h2>Weapon Attack (barbarian advantage)</h2>
 <h3>HACK FULL</h3>
-```ruby
+
 &{template:atkdmg} {{mod=+2}} {{rname=GreatAxe}} {{advantage=1}} {{r1=[[d20cs>20+17-5]]}} {{r2=[[d20cs>20+17-5]]}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[1d12 + 9[STR] + 2[MAGIC]+2[RAGE]+10[FEAT]]]}} {{dmg1type=SLASHING}} {{damage=1}} {{crit1=[[2d12[CRIT]]]}} {{spelllevel=}} {{innate=}} }
-```
+
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
